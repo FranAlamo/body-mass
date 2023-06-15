@@ -1,9 +1,7 @@
-import { useState } from "react";
-
-import "./App.css";
+import Profile from "../pages/Profile.jsx";
 
 function App() {
-  return <></>;
+  return <Profile />;
 }
 
 export default App;
