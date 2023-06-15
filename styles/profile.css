@@ -4,13 +4,13 @@ body {
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  background-color: #f8eaea45;
+  background-color: #96b5de13;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
+.container-one {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -29,18 +29,18 @@ body {
 }
 
 .photo {
-  width: 200%;
-  max-width: 400px;
+  width: 150%;
+  max-width: 350px;
 }
 
 .title {
-  font-size: 320%;
+  font-size: 250%;
   font-weight: 800;
   color: rgba(52, 57, 57, 0.977);
 }
 
 .description {
-  font-size: 150%;
+  font-size: 120%;
   text-align: justify;
   line-height: 200%;
   color: rgba(94, 103, 103, 0.977);

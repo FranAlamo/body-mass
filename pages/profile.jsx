@@ -4,7 +4,7 @@ import "../styles/profile.css";
 
 function Profile() {
   return (
-    <section className="container">
+    <section className="container-one">
       <div className="info-container">
         <div className="title">What your BMI result means</div>
         <p className="description">
