@@ -10,7 +10,7 @@ function Limitations() {
     <section className="limitations-container">
       <div className="limitation-text">
         <h2 className="title-limitations">Limitations of BMI</h2>
-        <p className="info-limitations">
+        <p className="info-limitations-one">
           Although BMI is often a practical indicator of healthy weight, it is
           not <br />
           suited for every person. Specific groups should carefully consider
@@ -19,24 +19,26 @@ function Limitations() {
           beneficial to use.
         </p>
       </div>
-      <div className="factors-container">
+      <div className="factors-container-one">
         <div className="factors" id="gender">
           <div>
             <img src={Gender} alt="icon-gender" />
             <h3>Gender</h3>
           </div>
-          <p>
+          <p className="info-limitations">
             The development and body fat composition of girls and boys vary with
             age. Consequently, a child's age and gender are considered when
             evaluating their BMI.
           </p>
         </div>
+      </div>
+      <div className="factors-container-two">
         <div className="factors" id="age">
           <div>
             <img src={Age} alt="icon-age" />
             <h3>Age</h3>
           </div>
-          <p>
+          <p className="info-limitations">
             In aging individuals, increased body fat and muscle loss may cause
             BMI to underestimate body fat content.
           </p>
@@ -46,11 +48,13 @@ function Limitations() {
             <img src={Muscle} alt="icon-muscle" />
             <h3>Muscle</h3>
           </div>
-          <p>
+          <p className="info-limitations">
             BMI may misclassify muscular individuals as overweight or obese, as
             it doesn't differentiate muscle from fat.
           </p>
         </div>
+      </div>
+      <div className="factors-container-three">
         <div className="factors" id="pregnancy">
           <div>
             <img src={Pregnancy} alt="icon-pregnancy" />

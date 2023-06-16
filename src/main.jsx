@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "../pages/Home";
 import Profile from "../pages/Profile.jsx";
 import Limitations from "../pages/Limitations.jsx";
+import Tips from "../pages/Tips.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/tips",
+    element: <Tips />,
   },
   {
     path: "/limitations",
