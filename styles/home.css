@@ -1,0 +1,22 @@
+.circle {
+  width: 5%;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title-body {
+  font-size: 250%;
+  font-weight: 800;
+  color: rgba(52, 57, 57, 0.977);
+}
+.description-calculator {
+  font-size: 120%;
+  text-align: justify;
+  line-height: 200%;
+  color: rgba(94, 103, 103, 0.977);
+}
+.two-main {
+  background-color: white;
+  background-size: cover;
+}
