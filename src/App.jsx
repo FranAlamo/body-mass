@@ -9,9 +9,23 @@ const App = () => {
   return (
     <div className="App">
       <Home />
+      <br />
+      <br />
+      <br />
       <Profile />
-      <Limitations />
+      <br />
+      <br />
       <Tips />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Limitations />
     </div>
   );
 };

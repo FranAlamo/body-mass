@@ -1,22 +1,38 @@
 .circle {
-  width: 5%;
+  width: 8%;
+  margin-top: 15%;
+  margin-left: 32%;
+  margin-bottom: 5%;
 }
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.title-body {
-  font-size: 250%;
-  font-weight: 800;
-  color: rgba(52, 57, 57, 0.977);
+
+.one-main {
+  background-color: #9bbfee42;
+  width: 120vh;
 }
-.description-calculator {
-  font-size: 120%;
-  text-align: justify;
-  line-height: 200%;
-  color: rgba(94, 103, 103, 0.977);
-}
+
 .two-main {
   background-color: white;
-  background-size: cover;
+}
+
+.title-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -2%;
+  font-size: 350%;
+  color: rgba(52, 57, 57, 0.977);
+}
+
+.description-calculator {
+  font-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 200%;
+  color: rgba(94, 103, 103, 0.977);
 }

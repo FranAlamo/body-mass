@@ -4,19 +4,21 @@ body {
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  background-color: #96b5de13;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Heebo", sans-serif;
+  background-color: #96b5de13;
 }
 
 .container-one {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  max-width: 1200px;
-  width: 80%;
+  align-items: center;
+  width: 50%;
+  margin-left: 20%;
+  gap: 10%;
 }
 
 .info-container {
@@ -30,8 +32,7 @@ body {
 }
 
 .photo {
-  width: 150%;
-  max-width: 350px;
+  max-width: 450px;
 }
 
 .title {
@@ -41,7 +42,7 @@ body {
 }
 
 .description {
-  font-size: 120%;
+  font-size: 100%;
   text-align: justify;
   line-height: 200%;
   color: rgba(94, 103, 103, 0.977);

@@ -60,7 +60,7 @@ function Limitations() {
             <img src={Pregnancy} alt="icon-pregnancy" />
             <h3>Pregnancy</h3>
           </div>
-          <p>
+          <p className="info-limitations">
             Expectant mothers experience weight gain due to their growing baby.
             Maintaining a healthy pre-pregnancy BMI is advisable to minimise
             health risks for both mother and child.
@@ -71,7 +71,7 @@ function Limitations() {
             <img src={Race} alt="icon-race" />
             <h3>Race</h3>
           </div>
-          <p>
+          <p className="info-limitations">
             Certain health concerns may affect individuals of some Black and
             Asian origins at lower BMIs than others. To learn more, it is
             advised to discuss this with your GP or practice nurse.

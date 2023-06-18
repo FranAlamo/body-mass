@@ -13,12 +13,19 @@
 }
 
 .icon-tips {
-  width: 10%;
+  width: 15%;
   display: flex;
 }
-.box-title,
+.box-title {
+  color: rgba(52, 57, 57, 0.977);
+  text-align: left;
+  font-size: 150%;
+  margin-right: 25%;
+}
 .description-box {
   color: rgba(52, 57, 57, 0.977);
   line-height: 200%;
   text-align: left;
+  font-size: 100%;
+  margin-right: 25%;
 }

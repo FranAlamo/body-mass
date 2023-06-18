@@ -8,18 +8,20 @@
 .factors-container-one {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 2rem;
   width: 80%;
   height: 20%;
+  margin-bottom: 2%;
 }
 .factors-container-two {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 5rem;
   width: 80%;
   height: 20%;
   margin-left: 40%;
-  margin-top: 35%;
+  margin-top: 30%;
+  margin-bottom: 10%;
 }
 .factors-container-three {
   display: grid;
@@ -77,7 +79,6 @@
 }
 .info-limitations {
   color: rgba(52, 57, 57, 0.977);
-  line-height: 150%;
   font-size: 100%;
   display: flex;
   text-align: left;

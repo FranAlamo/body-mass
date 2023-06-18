@@ -10,8 +10,8 @@ const Tips = () => {
         <img src={Healthy} alt="Healthy" className="icon-tips" />
         <h3 className="box-title">Healthy eating</h3>
         <p className="description-box">
-          Healthy eating promotes weight control, <br /> disease prevention,
-          better digestion, immunity, <br /> mental clarity, and mood
+          Healthy eating promotes weight control, disease prevention, better
+          digestion, immunity, mental clarity, and mood
         </p>
       </div>
 
@@ -20,8 +20,7 @@ const Tips = () => {
         <h3 className="box-title">Regular excercise</h3>
         <p className="description-box">
           Exercise improves fitness, aids weight control, elevates mood, and
-          reduce disease risk, <br />
-          fostering weilness and longevity
+          reduce disease risk, fostering weilness and longevity
         </p>
       </div>
 
@@ -29,9 +28,8 @@ const Tips = () => {
         <img src={Sleep} alt="Healthy" className="icon-tips" />
         <h3 className="box-title">Adequate sleep</h3>
         <p className="description-box">
-          Sleep enhances mental clarity, emotional <br />
-          stability, and physical weliness, promoting <br /> overall restoration
-          and rejuvenation
+          Sleep enhances mental clarity, emotional stability, and physical
+          weliness, promoting overall restoration and rejuvenation
         </p>
       </div>
     </div>
