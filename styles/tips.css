@@ -29,3 +29,35 @@
   font-size: 100%;
   margin-right: 25%;
 }
+@media only screen and (max-width: 600px) {
+  .container-tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-tips {
+    width: 55%;
+    margin-left: -150%;
+  }
+  .description-box {
+    font-size: 100%;
+    width: 350%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: -150%;
+    text-align: justify;
+  }
+  .container-tips {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+  }
+  .box-title {
+    margin-left: -150%;
+    color: rgba(52, 57, 57, 0.977);
+    text-align: left;
+    font-size: 150%;
+  }
+}

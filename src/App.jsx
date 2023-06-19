@@ -9,21 +9,10 @@ const App = () => {
   return (
     <div className="App">
       <Home />
-      <br />
-      <br />
-      <br />
+
       <Profile />
-      <br />
-      <br />
+
       <Tips />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Limitations />
     </div>

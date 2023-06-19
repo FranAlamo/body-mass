@@ -1,12 +1,7 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Heebo", sans-serif;
   background-color: #96b5de13;
 }
@@ -33,6 +28,9 @@ body {
 
 .photo {
   max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -46,4 +44,29 @@ body {
   text-align: justify;
   line-height: 200%;
   color: rgba(94, 103, 103, 0.977);
+}
+@media only screen and (max-width: 600px) {
+  .container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 3%;
+  }
+  .photo {
+    max-width: 350px;
+  }
+  .title {
+    font-size: 200%;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .description {
+    color: rgba(52, 57, 57, 0.977);
+    font-size: 100%;
+    display: flex;
+    text-align: justify;
+    width: 100%;
+  }
 }
