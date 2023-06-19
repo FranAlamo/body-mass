@@ -27,7 +27,7 @@ body {
 }
 
 .photo {
-  max-width: 450px;
+  max-width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,5 +68,45 @@ body {
     display: flex;
     text-align: justify;
     width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .photo {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+  }
+  .title {
+    font-size: 200%;
+    text-align: justify;
+    width: 120%;
+  }
+
+  .description {
+    color: rgba(52, 57, 57, 0.977);
+    font-size: 100%;
+    display: flex;
+    text-align: justify;
+    width: 120%;
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 20%;
+    gap: 10%;
+    margin-top: 10%;
   }
 }

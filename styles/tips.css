@@ -61,3 +61,10 @@
     font-size: 150%;
   }
 }
+@media only screen and (min-width: 768px) {
+  .box-one,
+  .box-two,
+  .box-three {
+    width: 30%;
+  }
+}

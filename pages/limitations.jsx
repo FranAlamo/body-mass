@@ -12,10 +12,8 @@ function Limitations() {
         <h2 className="title-limitations">Limitations of BMI</h2>
         <p className="info-limitations-one">
           Although BMI is often a practical indicator of healthy weight, it is
-          not <br />
-          suited for every person. Specific groups should carefully consider
-          their <br /> BMI outcomes, and in certain cases, the measurement may
-          not be <br />
+          not suited for every person. Specific groups should carefully consider
+          their BMI outcomes, and in certain cases, the measurement may not be
           beneficial to use.
         </p>
       </div>
